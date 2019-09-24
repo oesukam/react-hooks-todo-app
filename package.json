@@ -31,5 +31,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/oesukam/react-hooks-todo-app.git"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.1.4"
   }
 }
