@@ -10,8 +10,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --watchAll=false --coverage",
+    "test:watch": "react-scripts test",
+    "eject": "react-scripts eject",
+    "coverage": "cat ./coverage/lcov.info | coverall"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,6 +35,7 @@
     "url": "https://github.com/oesukam/react-hooks-todo-app.git"
   },
   "devDependencies": {
-    "@testing-library/react": "^9.1.4"
+    "@testing-library/react": "^9.1.4",
+    "coverage": "^0.4.1"
   }
 }
