@@ -1,4 +1,6 @@
 # React Todo App
+[![Build Status](https://travis-ci.org/oesukam/react-hooks-todo-app.svg?branch=master)](https://travis-ci.org/oesukam/react-hooks-todo-app)
+[![Coverage Status](https://coveralls.io/repos/github/oesukam/react-hooks-todo-app/badge.svg?branch=master)](https://coveralls.io/github/oesukam/react-hooks-todo-app?branch=master)
 
 ## Techologies
 - [ReactJS](https://github.com/facebook/react)
