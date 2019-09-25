@@ -13,7 +13,7 @@
     "test": "react-scripts test --watchAll=false --coverage",
     "test:watch": "react-scripts test",
     "eject": "react-scripts eject",
-    "coverage": "cat ./coverage/lcov.info | coverall"
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "@testing-library/react": "^9.1.4",
-    "coverage": "^0.4.1"
+    "coveralls": "^3.0.3"
   }
 }
